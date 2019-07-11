@@ -1,6 +1,7 @@
 .GameCard {
   color: red;
-  width: 200px;
-  height:400px;
+
+  height:265px;
   border: 1px solid black;
+  padding: 6px;
 }
