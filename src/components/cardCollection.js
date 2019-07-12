@@ -13,7 +13,7 @@ const CardCollection = props => {
     {cards.map(
       card => (
         <Grid item xs={12} sm={3}>
-        <GameCard title={card.title} esrb={card.esrb} description={card.description} />
+        <GameCard title={card.name} esrb={card.age_ratings} description={card.summary} />
         </Grid>
       )
     )}
