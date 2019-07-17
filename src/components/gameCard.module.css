@@ -1,7 +1,12 @@
 .GameCard {
-  color: red;
-
-  height:265px;
-  border: 1px solid black;
-  padding: 6px;
+  background: rgb(var(--color-foreground));
+  border-radius: 3px;
+  box-shadow: 0 2px 20px rgba(49,54,68,.09);
+  display: inline-grid;
+  grid-template-columns: 185px auto;
+  height: 265px;
+  min-width: 370px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
 }

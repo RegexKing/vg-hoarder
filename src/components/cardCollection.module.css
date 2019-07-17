@@ -1,3 +1,10 @@
 .CardCollection {
   margin: 1.0em;
 }
+
+.gridContainer {
+  display: inline-grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(2,1fr);
+}
